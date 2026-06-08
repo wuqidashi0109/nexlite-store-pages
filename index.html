@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexlite</title>
+  <meta name="description" content="Nexlite support and privacy information.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #586174;
+      --line: #d9deea;
+      --panel: #f7f9fc;
+      --accent: #2458e6;
+      --bg: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 64px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(36px, 7vw, 56px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    a {
+      display: block;
+      min-height: 92px;
+      padding: 18px;
+      color: var(--ink);
+      text-decoration: none;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    a strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 18px;
+    }
+
+    a span {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Nexlite</h1>
+    <p>Support and privacy information for the Nexlite mobile app.</p>
+
+    <nav aria-label="Nexlite pages">
+      <a href="privacy/">
+        <strong>Privacy Policy</strong>
+        <span>How Nexlite handles local Bluetooth device control and app data.</span>
+      </a>
+      <a href="support/">
+        <strong>Support</strong>
+        <span>Contact information and basic troubleshooting for Nexlite.</span>
+      </a>
+    </nav>
+  </main>
+</body>
+</html>
